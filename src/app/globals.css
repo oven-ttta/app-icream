@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+@theme {
+  --font-holtwood: var(--font-holtwood-one-sc), sans-serif;
+  --font-grape: var(--font-grape-nuts), cursive;
+}
+
+/* Hide scrollbar but keep scroll functionality */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Safari and Opera */
+}

@@ -1,7 +1,10 @@
+import React from 'react'
+import  GetStart from './pages/getstart/page'
+
 export default function Home() {
   return (
     <div>
-      <h1>Home</h1>
+      <GetStart />
     </div>
   );
 }
